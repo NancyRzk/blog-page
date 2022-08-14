@@ -21,7 +21,11 @@ export default function Topbar() {
           <li className="topListItem">ABOUT</li>
           <li className="topListItem">CONTACT</li>
           <li className="topListItem">WRITE</li>
-          <li className="topListItem">LOGOUT</li>
+          <li className="topListItem">
+            <Link className="link" to="/login">
+            LOGIN
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="topRight">
